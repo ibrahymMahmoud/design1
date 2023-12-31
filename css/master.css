@@ -1,0 +1,175 @@
+header{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+header nav{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+h1{
+    font-size:  72px; 
+}
+@media (max-width:767px){
+    h1{
+        font-size: 29px;
+    }
+    .header-layer div span{
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .flex-sm-wrap{
+        flex-wrap: wrap;
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    h1{
+        font-size: 52px;
+    }
+    .header-layer div span{
+        font-size: 38px;
+    }
+
+}
+.header-layer div span {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.container .navbar-brand{
+    font-size: 28px;
+    line-height: 33.6px ;
+    font-weight: 600;
+}
+ul.navbar-nav li a {
+    font-weight: 600;
+    line-height: 33.6px ;
+}
+#about h2::after{
+    content: "";
+    height: 5px;
+    width: 10%;
+    position: absolute;
+    top:  120%;
+    left: 0;
+    background: blue;
+}
+#about p span {
+    font-size: 18px;
+    line-height: 26.5px;
+    font-weight: 600;
+    color: RGB(30, 30, 30); 
+}
+article.mt-3{
+    line-height: 30px;
+    font-size: 17.25px;
+}
+#SERVICES div.container div.row div.col-lg-4 div.inner:hover div {
+     background-color: rgba(0, 120, 255 ,1); 
+     border-color:   rgba(113, 178, 252, 1); 
+    
+}
+div.row div.col-lg-4 div.inner div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid  rgba(0, 120, 255 ,1);
+    background-color: rgba(0, 120, 255 ,0);
+    transition: all 1s;
+}
+section:nth-child(4).text-center{
+    background-image: url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+} 
+div.container.row div.col-lg-3 div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+div.row div.col-lg-4 div.inner{
+    border-radius: 10px;
+}
+div.card-body div.d-flex div {
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    
+}
+div.col-lg-4 div.card img{
+    transition: all 0.5s;
+}
+div.col-lg-4.hamada div.card:hover img {
+    transform: scale(1.2);
+}
+div.slider-inner img {
+    width: 200px ;
+    height: 200px ;
+    border-radius: 50%;
+}
+section:nth-child(6){
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+}
+div.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+} 
+div.container div.row div.col-lg-3 div{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+.after::after{
+    content: "";
+    height: 3px;
+    width: 7%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: blue;
+} 
+.card-footer div  img {
+    width: 30px ;
+    height: 30px;
+    border-radius: 50%;
+}
+.after-in-card::after {
+    content: "TRAVEL";
+    padding: 5px;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    border-radius: 5px;
+}
+section:nth-child(8){
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+}
+section:nth-child(8) h3::after{
+    content: "";
+    height: 3px;
+    width: 15%;
+    position: absolute;
+    top: 130%;
+    left: 2%;
+    background-color: blue;
+}
+input:focus , textarea:focus {
+    border-color: blue;
+    outline-color: blue;
+    box-shadow: 5px 0 10px rgba(123, 123, 240, 0.5);
+}
+div.border-primary {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:solid 2px ;
+
+}
